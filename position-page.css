@@ -1,0 +1,75 @@
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+nav {
+  height: 60px;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+}
+
+nav .icon-img {
+  height: auto;
+  width:40px;
+  margin-top: 5px;
+  margin-bottom: 5px
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+
+body {
+  width:1024px;
+  height:768px;
+  background-image:no-repeat;
+
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+
+.dottedbox {
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacecat{
+  height:200px;
+  width:200px;
+  position:absolute;
+  left: -86px;
+  top: -82px;
+
+}
+
+.spacedog{
+  height:200px;
+  width:200px;
+  position:absolute;
+  right: -86px;
+  bottom: -64px;
+}
