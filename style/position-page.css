@@ -13,8 +13,8 @@ nav {
 nav .icon-img {
   height: auto;
   width:40px;
-  margin-top: 5px;
-  margin-bottom: 5px
+  margin-top: 10px;
+  margin-bottom: 5px;
   border-radius: 50%;
   vertical-align: middle;
   border: 1px solid black;
@@ -35,10 +35,25 @@ nav li::after {
 }
 
 
+a {
+  background-color:transparent;
+  -webkit-text-decoration-skip:objects;
+  text-decoration:none;
+}
+
+a:active,a:hover {
+  outline-width: 0;
+  color: purple;
+  text-decoration: underline;
+}
+
 body {
-  width:1024px;
-  height:768px;
-  background-image:no-repeat;
+  height: auto;
+  background-image: url(../images/outerspace_landscape.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  
 
 }
 
