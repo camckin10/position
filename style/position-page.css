@@ -13,8 +13,6 @@ nav {
 nav .icon-img {
   height: auto;
   width:40px;
-  margin-top: 10px;
-  margin-bottom: 5px;
   border-radius: 50%;
   vertical-align: middle;
   border: 1px solid black;
@@ -26,8 +24,9 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
+  display:inline-block;
 }
+
 
 nav li::after {
   content: "|";
@@ -50,10 +49,10 @@ a:active,a:hover {
 body {
   height: auto;
   background-image: url(../images/outerspace_landscape.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size:cover;
+  background-repeat:no-repeat;
   width:100%;
-  
+
 
 }
 
